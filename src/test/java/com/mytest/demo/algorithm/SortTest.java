@@ -21,6 +21,10 @@ public class SortTest {
 
         //冒泡排序
         System.out.println(Arrays.toString(BubbleSort.bubbleSort(array, array.length)));
+        //插入排序
+        System.out.println(Arrays.toString(InsertionSort.insertionSort(array, array.length)));
+        //选择排序
+        System.out.println(Arrays.toString(SelectionSort.selectionSort(array, array.length)));
 
 
 
