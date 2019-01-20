@@ -25,7 +25,8 @@ public class SortTest {
         System.out.println(Arrays.toString(InsertionSort.insertionSort(array, array.length)));
         //选择排序
         System.out.println(Arrays.toString(SelectionSort.selectionSort(array, array.length)));
-
+        //归并排序
+        System.out.println(Arrays.toString(MergeSort.mergeSort(array, array.length)));
 
 
     }
